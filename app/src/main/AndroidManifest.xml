@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student.hotplatetimer" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.student.hotplatetimer.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.student.hotplatetimer.FoodsActivity"
+            android:label="@string/title_activity_foods" >
+        </activity>
+        <activity
+            android:name="com.example.student.hotplatetimer.MealsActivity"
+            android:label="@string/title_activity_meals" >
+        </activity>
+        <activity
+            android:name="com.example.student.hotplatetimer.TimerActivity"
+            android:label="@string/title_activity_timer" >
+        </activity>
+        //Allow reading/writing to External Storage SD card
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+        <activity
+            android:name="com.example.student.hotplatetimer.AddFoodActivity"
+            android:label="@string/title_activity_add_food" >
+        </activity>
+    </application>
+
+</manifest>

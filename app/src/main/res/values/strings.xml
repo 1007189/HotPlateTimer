@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Activity Titles
+    <string name="app_name">Hotplate Timer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_foods">FoodsActivity</string>
+    <string name="title_activity_meals">MealsActivity</string>
+    <string name="title_activity_timer">TimerActivity</string>
+
+    //Main Activity
+    //Text
+    <string name="text_main">Favourites</string>
+    //Buttons
+    <string name="btn_fav0">Favourite 1</string>
+    <string name="btn_fav1">Favourite 2</string>
+    <string name="btn_fav2">Favourite 3</string>
+    <string name="btn_fav3">Favourite 4</string>
+    <string name="btn_fav4">Favourite 5</string>
+    <string name="btn_foods">Foods</string>
+    <string name="btn_meals">Meals</string>
+
+
+    //Food Activity
+    //Buttons
+    <string name="btn_food1">Food 1</string>
+    <string name="btn_food2">Food 2</string>
+    <string name="btn_food3">Food 3</string>
+    <string name="btn_food4">Food 4</string>
+    <string name="btn_food5">Food 5</string>
+
+
+    //Meals Activity
+    //Buttons
+    <string name="btn_meal1">Meal 1</string>
+    <string name="btn_meal2">Meal 2</string>
+    <string name="btn_meal3">Meal 3</string>
+    <string name="btn_meal4">Meal 4</string>
+    <string name="btn_meal5">Meal 5</string>
+
+
+    //Timer Activity
+    //Text
+    <string name="tv_timer">Timer</string>
+    <string name="tv_timerval">00:00:00</string>
+    //Buttons
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="title_activity_add_food">AddFoodActivity</string>
+
+    //AddFood Activity
+    //Text
+    <string name="tv_enterfood">Food Name</string>
+    <string name="tv_entertime">Cook Time</string>
+    //Buttons
+    <string name="btn_add">Add</string>
+
+
+
+
+</resources>
